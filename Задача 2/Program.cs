@@ -7,7 +7,7 @@ int[] arr = new int[size];
 
 for (int i = 0; i < size; i++)
 {
-    arr[i] = rnd.Next();
+    arr[i] = rnd.Next(0, 1000);
 }
 
 for (int i = 0; i < size; i++)
